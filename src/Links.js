@@ -1,104 +1,151 @@
-import { facebook, instagram, linkedin, twitter } from "./assets";
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Courses",
     links: [
       {
-        name: "HOME",
+        name: "AI & Machine learning",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "ABOUT",
+        name: "Python full stack",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "SERVICE",
+        name: "Flutter development",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "PROJECT",
+        name: "Data science",
         link: "https://www.hoobank.com/explore/",
       },
-      // {
-      //   name: "Terms & Services",
-      //   link: "https://www.hoobank.com/terms-and-services/",
-      // },
+      {
+        name: "UI UX design",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },
+      {
+        name: "Digital marketing",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },
+      {
+        name: "Graphic design&Video editing",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },
+      {
+        name: "MERN stack development",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },
+      {
+        name: "Professional accounting",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },
     ],
   },
   {
-    title: "SERVICES",
+    title: "Career",
     links: [
       {
-        name: "Custom  Web Designing",
+        name: "Become a mentor",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "UI/UX Design ",
+        name: "Flutter Developer",
         link: "https://www.hoobank.com/become-a-partner/",
       },
       {
-        name: "Static Websites",
+        name: "UI UX Designer",
         link: "https://www.hoobank.com/become-a-partner/",
       },
-      // {
-      //   name: "Resposive Design",
-      //   link: "https://www.hoobank.com/become-a-partner/",
-      // },
       {
-        name: "Hosting ",
+        name: "MERN Developer",
         link: "https://www.hoobank.com/become-a-partner/",
       },
-    
+      {
+        name: "Python developer",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Graphic designer",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
     ],
   },
   {
-    title: "REACH US",
+    title: "Contact & Support",
     links: [
       {
-        name: "rowgrid@gmail.com",
+        name: "Phone: 097456 80111",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: " 9645284458,7907235020",
+        name: "Email: contact@mentorow.com",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: " Kochi,Banglore",
+        name: "Hours: Closed . Opens 9am Tue",
         link: "https://www.hoobank.com/suggestions/",
       },
-      // {
-      //   name: "Blog",
-      //   link: "https://www.hoobank.com/blog/",
-      // },
-      // {
-      //   name: "Newsletters",
-      //   link: "https://www.hoobank.com/newsletters/",
-      // },
+      {
+        name: "Address: Kinfra Office Rd,Infopark Campus,",
+        link: "https://www.hoobank.com/blog/",
+      },
+      {
+        name: "Kochi, Kakkanad, Kerala 682030",
+        link: "https://www.hoobank.com/newsletters/",
+      },
     ],
   },
- 
+  {
+    title: "Comunity",
+    links: [
+      {
+        name: "Latest News",
+        link: "https://www.hoobank.com/help-center/",
+      },
+      {
+        name: "Community Forums",
+        link: "https://www.hoobank.com/partners/",
+      },
+      {
+        name: "#MENTOROW",
+        link: "https://www.hoobank.com/suggestions/",
+      },
+      {
+        name: "Community Portal",
+        link: "https://www.hoobank.com/blog/",
+      },
+      {
+        name: "Resources",
+        link: "https://www.hoobank.com/newsletters/",
+      },
+    ],
+  },
 ];
 
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
-];
+// export const socialMedia = [
+//   {
+//     id: "social-media-1",
+//     icon: facebook,
+//     link: "",
+//   },
+//   {
+//     id: "social-media-2",
+//     icon: skill,
+//     link: "",
+//   },
+//   {
+//     id: "social-media-3",
+//     icon: instagram,
+//     link: "",
+//   },
+//   {
+//     id: "social-media-4",
+//     icon: wpf,
+//     link: "",
+//   },
+//   {
+//     id: "social-media-4",
+//     icon: icon,
+//     link: "",
+//   },
+// ];
