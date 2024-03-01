@@ -1,4 +1,4 @@
-
+import { facebook, instagram, dribble, discord, behance } from "./assets/index";
 export const footerLinks = [
   {
     title: "Courses",
@@ -96,7 +96,7 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Comunity",
+    title: "Community",
     links: [
       {
         name: "Latest News",
@@ -122,30 +122,30 @@ export const footerLinks = [
   },
 ];
 
-// export const socialMedia = [
-//   {
-//     id: "social-media-1",
-//     icon: facebook,
-//     link: "",
-//   },
-//   {
-//     id: "social-media-2",
-//     icon: skill,
-//     link: "",
-//   },
-//   {
-//     id: "social-media-3",
-//     icon: instagram,
-//     link: "",
-//   },
-//   {
-//     id: "social-media-4",
-//     icon: wpf,
-//     link: "",
-//   },
-//   {
-//     id: "social-media-4",
-//     icon: icon,
-//     link: "",
-//   },
-// ];
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: facebook,
+    link: "",
+  },
+  {
+    id: "social-media-2",
+    icon: discord,
+    link: "",
+  },
+  {
+    id: "social-media-3",
+    icon: instagram,
+    link: "",
+  },
+  {
+    id: "social-media-4",
+    icon: behance,
+    link: "",
+  },
+  {
+    id: "social-media-4",
+    icon: dribble,
+    link: "",
+  },
+];
