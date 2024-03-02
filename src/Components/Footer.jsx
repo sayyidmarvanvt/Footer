@@ -10,14 +10,14 @@ const Footer = () => {
               key={footerLink.key}
               className="flex flex-col ss:my-0 my-4 min-w-[150px]"
             >
-              <h4 className="font-poppins  font-medium text-[24px] leading-[16px] text-[#9A7BFF]">
+              <h4 className="font-sen  font-medium text-[24px] leading-[16px] text-[#9A7BFF] m-0">
                 {footerLink.title}
               </h4>
               <ul className="list-none mt-6">
                 {footerLink.links.map((link) => (
                   <li
                     key={link.name}
-                    className="font-poppins font-normal text-[12px] leading-[12px] text-white cursor-pointer mb-4 "
+                    className="font-sen font-normal text-[12px] leading-[12px] text-white cursor-pointer mb-4 "
                   >
                     {link.name}
                   </li>
@@ -38,7 +38,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="flex flex-col  mb-4 md:mb-0">
-        <p className="font-poppins font-normal text-white text-[15px] leading-[16px] sm:mb-0 mb-4">
+        <p className="font-sen font-normal text-white text-[15px] leading-[16px] sm:mb-0 mb-4">
           Backed by
         </p>
         <div className="flex justify-center ">
@@ -49,7 +49,7 @@ const Footer = () => {
           />
         </div>
 
-        <p className="font-poppins font-normal text-white text-[15px] leading-[16px]  text-center">
+        <p className="font-sen font-normal text-white text-[15px] leading-[16px]  text-center">
           Mentor Academy for Design Entreprenuership Innovation and Technology
         </p>
       </div>
